@@ -286,6 +286,9 @@ A lock got corrupted once in the cryfs directory, making the editing file unread
   (add-to-list 'auto-mode-alist '("\\.py" . python-mode))
 #+END_SRC
 * Emacs Jupyter
+
+- [[https://github.com/emacs-jupyter/jupyter][Emacs-Jupyter on GitHub]]
+
 #+begin_src python :noweb-ref jupyter-emacs
 (org-babel-jupyter-override-src-block "python")
 #+end_src
