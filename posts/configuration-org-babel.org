@@ -26,6 +26,7 @@
   (add-to-list 'org-src-lang-modes '("org" . "org"))
   (add-to-list 'org-src-lang-modes '("css" . "css"))
   (add-to-list 'org-src-lang-modes '("plantuml" . "plantuml"))
+  (add-to-list 'org-src-lang-modes '("fish" . "fish"))
   (add-to-list 'org-src-lang-modes '("conf" . "conf"))
 
   (org-babel-do-load-languages
@@ -33,6 +34,7 @@
    '(
      (plantuml . t)
      (shell . t)
+     (fish . t)
      (emacs-lisp . t)
      (latex . t)
      (org . t)
